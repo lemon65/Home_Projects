@@ -1,12 +1,5 @@
 #!/usr/bin/python
 
-#   _______  _____________      __  _________           __________ ___________________
-#   \      \ \_   _____/  \    /  \/   _____/           \______   \\_____  \__    ___/
-#   /   |   \ |    __)_\   \/\/   /\_____  \    ______   |    |  _/ /   |   \|    |   
-#  /    |    \|        \\        / /        \  /_____/   |    |   \/    |    \    |   
-#  \____|__  /_______  / \__/\  / /_______  /            |______  /\_______  /____|   
-#          \/        \/       \/          \/                    \/         \/         
-
 # Simple script to poll the top stories on CNN.rss and send them to a cell phone
 # To Edit the run time run the command 'crontab -e'
 
@@ -15,7 +8,7 @@
 # - add a phone num and provider
 # - Start a local smtp server, with an account (use googles SMTP server)
 # - install mutt
-# - Setup when the data will be sent to your phone
+# - to edit the run time, run the command 'crontab -e' and call the script. 
 
 import os 
 import sys
